@@ -17,7 +17,7 @@ st.markdown("""
 st.markdown("<h1 class='title'>Chat - Stihl</h1>", unsafe_allow_html=True)
 
 #API_URL = "http://localhost:8000/query"  # ajuste se seu backend estiver em outro endereço
-API_URL = "https://6f75-2804-4458-fc00-5700-d47f-887a-887d-8e70.ngrok-free.app"
+API_URL = "https://6f75-2804-4458-fc00-5700-d47f-887a-887d-8e70.ngrok-free.app/query"
 
 query = st.text_input("Digite sua pergunta:")
 
